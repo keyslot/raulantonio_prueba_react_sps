@@ -1,0 +1,57 @@
+/* Continue using the following 2 
+ * classes made by default. */
+.App {
+  /* Simple style for this App */
+  background-color: #fff;
+}
+ 
+.App-header {
+  background-color: #fff;
+  min-height: 100vh;
+  display: flex;
+  font-size: calc(10px + 1vmin);
+}
+
+/* Stype for the users list      */
+/* Users container               */
+
+.users {
+  width: 100%;
+  margin:0;
+  color: #333;
+}
+
+/* User: list style              */
+.users ul {
+  padding:0;
+  margin: 0;
+  list-style:none;
+}
+
+.users li { 
+  width:100%;
+  cursor: pointer;
+  height: 200px;
+  padding-top:10px;
+  border-top: 1px dotted #ccc;
+  border-bottom: 1px dotted #ccc;
+}
+
+/* User: avatar                   */
+.users img{
+  float: left;
+  border-radius: 50%;
+  margin: 2% 5% 0% 10%;
+}
+
+/* User: aditional info (hidden)  */
+.users .infoUser {
+  color: #635961;
+}
+
+/* User: list effects             */
+.users li:hover {
+  background-color: #e4f4ff;
+}
+
+/* EOF */
